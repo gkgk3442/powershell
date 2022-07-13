@@ -9,10 +9,14 @@
 - 윈도우 글꼴 설정에서 적용 할 것
 - windows terminal 설정에서 폰트 설정
 
+# posh-git 설치
+```console
+Install-Module posh-git -Scope AllUsers -Force
+```
+
 # oh-my-posh 설치
 - 관리자 권한 windows terminal
 ```console
-Install-Module posh-git -Scope AllUsers -Force
 Install-Module oh-my-posh -Scope AllUsers -Force
 Update-Module -Name oh-my-posh -AllowPrerelease -Scope AllUsers -Force
 ```
