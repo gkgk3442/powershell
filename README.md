@@ -14,7 +14,8 @@
 Install-Module posh-git -Scope AllUsers -Force
 ```
 
-# oh-my-posh 설치
+# oh-my-posh
+- 참조 : https://ohmyposh.dev/
 - 관리자 권한 windows terminal
 ```console
 Install-Module oh-my-posh -Scope AllUsers -Force
