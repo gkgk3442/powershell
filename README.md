@@ -35,7 +35,12 @@ code $PROFILE
 ```
 ```console
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\aliens.omp.json" | Invoke-Expression
+
+or
+
+Set-PoshPrompt -Theme aliens
 ```
+> $PROFILE 에서 첫번째는 로드시간이 2600ms 정도, 두번째는 700ms 정도  
 
 # 테마 참조
 - https://ohmyposh.dev/docs/themes
