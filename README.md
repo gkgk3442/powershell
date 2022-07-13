@@ -18,8 +18,8 @@ Install-Module posh-git -Scope CurrentUser -Force
 
 # Terminal-Icons 설치
 
-```bash
-$Install-Module Terminal-Icons -Repository PSGallery -Scope CurrentUser -Force
+```console
+Install-Module Terminal-Icons -Repository PSGallery -Scope CurrentUser -Force
 ```
 
 # oh-my-posh
