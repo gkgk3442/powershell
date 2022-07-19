@@ -29,15 +29,16 @@ Install-Module Terminal-Icons -Repository PSGallery -Scope CurrentUser -Force
 
 ```console
 Install-Module oh-my-posh -Scope CurrentUser -Force
+```
+```console
 Update-Module -Name oh-my-posh -AllowPrerelease -Scope CurrentUser -Force
 ```
 
-- 일반 windows terminal
-
+- 테마 인스톨
 ```console
-New-Item -ItemType File -Path $PROFILE
 Get-PoshThemes
-Set-PoshPrompt -Theme aliens
+# New-Item -ItemType File -Path $PROFILE
+# Set-PoshPrompt -Theme aliens
 ```
 
 # oh-my-posh 사용자 기본값 설정
