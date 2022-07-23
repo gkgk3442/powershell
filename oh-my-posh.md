@@ -1,5 +1,9 @@
 # oh-my-posh
 ```console
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
+```
+
+```console
 Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
 ```console
