@@ -10,10 +10,10 @@
 > Beta: 세계 언어 지원을 위해 UTF-8 사용 체크  
 
 # 순서
-- NerdFont
-- posh-git
-- Terminal-Icons
-- oh-my-posh
+- ~~NerdFont~~
+- ~~posh-git~~
+- ~~Terminal-Icons~~
+- ~~oh-my-posh~~
 - PSReadLine
 - wsl
 - vscode
