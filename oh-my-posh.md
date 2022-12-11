@@ -1,3 +1,5 @@
+!!!사용금지 - 예뻐도, 속도가 느림!!!
+
 # oh-my-posh
 - setting
 ```console
